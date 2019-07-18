@@ -1,0 +1,189 @@
+/* 轮播图 */
+.banner {
+    height: 430px;
+}
+.banner .swiper-container {
+    height: 100%;
+}
+.banner .first {
+    background: #f7ecdc;
+}
+.banner .first .content {
+    position: relative;
+    height: 100%;;
+    padding-top: 143px;
+}
+.banner .first p {
+    margin-left: 514px;
+    margin-bottom: 20px;
+    color: #343a4d;
+}
+.banner .first .tissue {
+    position: absolute;
+    left: 122px;
+    top: 81px;
+}
+.banner .first .strawberry {
+    position: absolute;
+    right: 282px;;
+    top: 101px;
+}
+.banner .first .washing-liquid {
+    position: absolute;
+    right: 93px;
+    bottom: 0;
+}
+
+
+/* 趣买货介绍 */
+.introduce {
+    height: 580px;
+}
+.introduce .content {
+    position: relative;
+    height: 100%;
+    padding-top: 93px;
+}
+.introduce .left img {
+    position: absolute;
+    left: 173px;
+    bottom: 0;
+}
+.introduce .right {
+    margin-left: 647px;
+}
+.introduce .right .top {
+    position: relative;
+    height: 80px;
+    margin-bottom: 55px;
+}
+.introduce .right .top .block {
+    position: absolute;
+    background: #ff3333;
+    height: 61px;
+    width: 12px;
+    left: 0;
+    border-radius: 6px;
+    top: 10px;
+}
+.introduce .right .top p {
+    margin-left: 35px;
+}
+.introduce .right .top .question {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.introduce .right .top .anwser {
+    font-size: 18px;
+}
+.introduce .right .bottom {
+    font-size: 18px;
+    width: 510px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.introduce .right .bottom div {
+    margin-bottom: 45px;
+    color: #343a4d;
+}
+
+/* 会员特权 */
+.privilege {
+    height: 780px;
+    background: #f7ecdc;
+}
+.privilege .content {
+    padding-top: 83px;
+}
+.privilege .top {
+    margin-bottom: 67px;
+}
+.privilege .top img {
+    display: block;
+    margin: 0 auto;
+}
+.privilege .bottom {
+    width: 700px;
+    margin: 0 auto;
+}
+.privilege .bottom li {
+    float: left;
+    width: 218px;
+    font-size: 12px;
+    color: #abaaaa;
+    margin-right: 15px;
+    margin-bottom: 37px;
+}
+.privilege .bottom li:nth-child(3n) {
+    margin-right: 0;
+}
+.privilege .bottom li .text {
+    height: 90px;
+    padding: 3px;
+    background: #fff;
+    line-height: 20px;
+}
+.privilege .bottom li .text p {
+    font-size:14px;
+    font-weight: 300;
+}
+
+/* 下载 */
+.download {
+    height: 525px;
+}
+.download .content {
+    height: 100%;
+    position: relative;
+    padding-top: 200px;
+}
+.download .left img {
+    position: absolute;
+    left: 150px;
+    top: 54.5px;
+}
+.download .right {
+    margin-left: 753px;
+}
+.download .right .top {
+    position: relative;
+    margin-bottom: 35px;
+}
+.download .right .top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.download .right .top .app {
+    margin-left: 80px;
+}
+.download .right .top .app p:first-child {
+    color: #454545;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.download .right .top .app p:last-child {
+    color: #454545;
+    font-size: 26px;
+    font-weight: 500;
+}
+.download .right ul li {
+    float: left;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 17px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.download .right ul li:hover {
+    cursor: pointer;
+}
+.download .right ul li img {
+    vertical-align: text-bottom;
+    margin-bottom: -1px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
