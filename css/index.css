@@ -6,9 +6,12 @@
     height: 100%;
 }
 .banner .first {
-    background: #f7ecdc;
+    background: url('../image/index/banner1.jpg') center;
 }
-.banner .first .content {
+.banner .second {
+    background: url('../image/index/banner2.jpg') center;
+}
+/* .banner .first .content {
     position: relative;
     height: 100%;;
     padding-top: 143px;
@@ -32,7 +35,7 @@
     position: absolute;
     right: 93px;
     bottom: 0;
-}
+} */
 
 
 /* 趣买货介绍 */
